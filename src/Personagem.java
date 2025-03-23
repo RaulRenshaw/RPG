@@ -1,4 +1,4 @@
-public abstract class Heroi {
+public abstract class Personagem {
     public String name;
     public int life;
 
@@ -9,15 +9,15 @@ public abstract class Heroi {
         life -= damage;
     }
 
-    public Heroi() {}
-    public Heroi(int life, String name) {
+    public Personagem() {}
+    public Personagem(int life, String name) {
         this.life = life;
         this.name = name;
     }
 
     public void info(){
-        System.out.println("O nome do seu heroi é: " + name);
-        System.out.println("A vida atual do seu heroi é: " + life);
+        System.out.println("O nome do Personagem é: " + name);
+        System.out.println("A vida atual é: " + life);
     }
 
     public String getName() {

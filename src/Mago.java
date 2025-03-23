@@ -1,8 +1,8 @@
-public class Mago extends Heroi{
+public class Mago extends Personagem {
     int damage;
     String nameOfAttack;
 
-    public void aplicarAtaque(Inimigo inimigo){
+    public void aplicarAtaque(Personagem inimigo){
         inimigo.receberDano(damage);
         System.out.println("O heroi " + name + " Atacou com o ataque " + nameOfAttack + " o inimigo " + inimigo.getName() + " e causou " + damage + " de dano");
 

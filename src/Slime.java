@@ -1,8 +1,8 @@
-public class Slime extends Inimigo{
+public class Slime extends Personagem{
     int damage;
     String nameOfAttack;
 
-    public void aplicarAtaque(Heroi heroi){
+    public void aplicarAtaque(Personagem heroi){
         heroi.receberDano(damage);
         System.out.println("O inimigo " + name + " Atacou com o ataque " + nameOfAttack + " o inimigo " + heroi.getName() + " e causou " + damage + " de dana");
         if (heroi.life <= 0){
