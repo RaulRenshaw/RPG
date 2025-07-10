@@ -11,7 +11,7 @@ Sistema de turnos: o jogador (mago) e o inimigo atacam alternadamente.
 Fim da batalha quando um dos personagens chega a 0 de vida.
 
 ⚙️ Tecnologias
-Linguagem: [Coloque aqui, ex.: Python, Java, C++]
+Linguagem: Java.
 
 Lógica básica de RPG com estruturas condicionais e laços de repetição.
 
@@ -21,19 +21,9 @@ Clone este repositório:
 bash
 Copiar
 Editar
-git clone https://github.com/seu-usuario/rpg-basico.git
+git clone https://github.com/RaulRenshaw/RPG.git
 Acesse o diretório:
 
-bash
-Copiar
-Editar
-cd rpg-basico
-Execute o programa:
-
-bash
-Copiar
-Editar
-[coloque o comando de execução aqui, ex.: python main.py, java Main, etc.]
 📝 Como jogar
 O programa exibe o status do mago e do inimigo.
 
